@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title></title>
+    <link rel='stylesheet' href='style.css'>
+  </head>
+  <body>
+    <header>
+        <div class="info">
+            <div id="info-head">
+              <b>Selecione uma cor</b> 
+            </div>
+        </div>
+      <div id='color-select'>
+        <div class='color-box white'></div>
+        <div class='color-box orange'></div>
+        <div class='color-box banana'></div>
+        <div class='color-box honeydew'></div>
+        <div class='color-box flora'></div>
+        <div class='color-box aqua'></div>
+        <div class='color-box ice'></div>
+        <div class='color-box sky'></div>
+        <div class='color-box orchid'></div>
+        <div class='color-box lavendar'></div>
+        <div class='color-box pink'></div>
+      </div>
+    </header>
+    <main>
+        <div class="headers">
+            <div id="list-head">
+              <b>Suas Notas</b> <i>(clique para edita/deletar)</i>
+            </div>
+            
+              <span id="edit-mode" class="no-display">
+                <i> (modo de edição) </i>
+              </span>
+            </div>
+          </div>
+          <noteList>
+            <div id='listed'>
+            </div>
+          </noteList>
+      </div>  
+
+      <notepad>
+        <div id="note-title">
+          <input id="title-field" type="text" placeholder="Adicione aqui o titulo">
+        </div>
+        <div id="note-body">
+          <textarea id="body-field" max-length="20">digite aqui sua nota</textarea>
+        </div>
+       
+        </label>
+      </notepad>
+    </main>
+    <footer>
+      <button id="btn-save">Salvar</button>
+      <button id="btn-delete">Deletar/Limpar </button>
+    </footer>
+  </body>
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+  <script type='text/javascript' src='script.js'></script>
+</html>
+
